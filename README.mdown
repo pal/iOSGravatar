@@ -1,0 +1,14 @@
+iOSGravatar
+===========
+
+Simple example of how to add Gravatar-support to your iOS-projects.
+
+What?
+-----
+
+This is a simple iOS-application to show how you can make use of [Gravatar]:(http://gravatar.com/) in your iPhone or iPad application. 
+
+Usage
+-----
+
+See [iOSGravatarViewController.m](https://github.com/pal/iOSGravatar/tree/master/Classes/iOSGravatarViewController.m) for a simple example, littered with DEBUG output (which will show up if you define a `DEBUG` preprocessor directive).

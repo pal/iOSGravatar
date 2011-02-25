@@ -1,0 +1,15 @@
+//
+// Prefix header for all source files of the 'iOSGravatar' target in the 'iOSGravatar' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+// Three20-style debug logging
+#ifdef DEBUG
+#define LOG_INFO(xx, ...)  NSLog(@"%s(%d): " xx, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define LOG_INFO(xx, ...)  ((void)0)
+#endif // #ifdef DEBUG
